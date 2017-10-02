@@ -22,5 +22,3 @@ $module_version = array(
     ),
     'note' => ''
 );
-
-//khởi tạo version cho module với các thông tin như trên
