@@ -1,3 +1,5 @@
 <!-- BEGIN: main -->
-Nội dung của admin/main.php
+<div id="module_show_list">
+	{GENEALOGY_LIST}
+</div>
 <!-- END: main -->
