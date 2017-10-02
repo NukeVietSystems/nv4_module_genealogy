@@ -5,8 +5,8 @@
  * @Author NukeViet Systems (hoangnt@nguyenvan.vn)
  * @License GNU/GPL version 2 or any later version
  */
-
-if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) or ! defined( 'NV_IS_MODADMIN' ) ) die( 'Stop!!!' );
+ 
+if (!defined('NV_ADMIN')) die('Stop!!!');
 
 $submenu['genealogy'] = $lang_module['genealogy'];
 $submenu['location'] = $lang_module['location'];
