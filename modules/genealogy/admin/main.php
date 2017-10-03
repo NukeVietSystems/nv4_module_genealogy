@@ -10,6 +10,10 @@
 if (!defined('NV_IS_FILE_ADMIN')) die('Stop!!!');
 
 $content = nv_show_genealogy_list();
+if ( $content == "&nbsp;" )
+{
+    nv_redirect_location(NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&' . NV_NAME_VARIABLE . '=' . $module_name . '&' . NV_OP_VARIABLE . '=genealogy' );
+}
 $xtpl = new XTemplate($op . '.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
 $xtpl->assign( 'GENEALOGY_LIST', $content);
 $xtpl->parse('main');

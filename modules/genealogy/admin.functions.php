@@ -67,7 +67,7 @@ function nv_show_genealogy_list()
 		}
 		$contents .= "</table>\n";
 	}else{
-		$contents = "không tồn tại danh sách";
+		$contents = "&nbsp;";
 	}
 	return $contents; 
 }
