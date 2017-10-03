@@ -6,9 +6,9 @@
  * @License GNU/GPL version 2 or any later version
  */
  
- if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) or ! defined( 'NV_IS_MODADMIN' ) ) die( 'Stop!!!' );
- define('NV_IS_FILE_ADMIN', true);
- define('MOD_GENEALOGY', NV_PREFIXLANG . '_' . $module_data);
+if( ! defined( 'NV_ADMIN' ) or ! defined( 'NV_MAINFILE' ) or ! defined( 'NV_IS_MODADMIN' ) ) die( 'Stop!!!' );
+define('NV_IS_FILE_ADMIN', true);
+define('MOD_GENEALOGY', NV_PREFIXLANG . '_' . $module_data);
 function nv_show_genealogy_list()
 {
 	global $db,$lang_module,$lang_global,$module_name;
@@ -19,7 +19,7 @@ function nv_show_genealogy_list()
 	if( $num > 0 )
 	{
 		$contents = "<div class=\"table-responsive\"><table class=\"table table-striped table-bordered table-hover\">\n";
-		$contents = "<colgroup>
+		$contents .= "<colgroup>
                 <col class=\"w50\" />
                 <col  />
                 <col class=\"w150\"  />
