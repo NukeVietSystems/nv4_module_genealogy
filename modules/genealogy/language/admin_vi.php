@@ -107,3 +107,10 @@ $lang_module['u_content'] = "Tiểu sử, thân thế, sự nghiệp, công đ�
 $lang_module['u_image'] = "Ảnh chân dung";
 $lang_module['u_mother'] = "Là con của";
 $lang_module['who_view2'] = "Chỉ người tạo và quản trị viên";
+$lang_module['genealogy_title'] = "Thông tin chi họ";
+$lang_module['genealogy_title_note'] = "(ghi chú phần này chỉ nhập nội dung đến Quận huyện. VD: Thôn Thọ Hạ, Quảng Sơn, Quảng Trạch)";
+$lang_module['genealogy_cat'] = "Thuộc chi họ";
+$lang_module['genealogy_cat_choose'] = "Chọn chi họ";
+$lang_module['genealogy_location'] = "Tỉnh/TP";
+$lang_module['genealogy_location_choose'] = "Chọn chi họ";
+
