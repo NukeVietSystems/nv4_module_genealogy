@@ -113,4 +113,20 @@ $lang_module['genealogy_cat'] = "Thuộc chi họ";
 $lang_module['genealogy_cat_choose'] = "Chọn chi họ";
 $lang_module['genealogy_location'] = "Tỉnh/TP";
 $lang_module['genealogy_location_choose'] = "Chọn chi họ";
+$lang_module['genealogy_description'] = "Phả ký";
+$lang_module['genealogy_description_note'] = "Nguồn gốc xuất xứ của gia tộc, hành trạng của Thuỷ tổ";
+$lang_module['genealogy_rule'] = "Tộc ước";
+$lang_module['genealogy_rule_note'] = "Các quy định của dòng họ";
+$lang_module['genealogy_content'] = "Từ đường - Hương hoả";
+$lang_module['genealogy_content_note'] = "Ghi chép về phần đất (lăng mộ dòng họ) tài sản dòng họ( Vật thể như nhà thờ, phi vật thể như các bài cúng, tế ...)";
+$lang_module['genealogy_who_view'] = "Thành viên được xem gia phả";
+$lang_module['genealogy_info_create'] = "Thông tin biên soạn";
+$lang_module['genealogy_year'] = "Năm biên soạn";
+$lang_module['genealogy_author'] = "Người biên soạn";
+$lang_module['genealogy_contact'] = "Người liên hệ";
+$lang_module['genealogy_telephone'] = "Điện thoại";
+$lang_module['genealogy_email'] = "Thư điện tử";
+$lang_module['genealogy_phone'] = "Điện thoại di động";
+$lang_module['genealogy_note'] = "Ghi chú: Nếu không nhập thông tin người liên hệ, hệ thống sẽ lấy thông tin của người tạo chi họ";
+
 

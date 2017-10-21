@@ -85,7 +85,7 @@ $sql_create_module[] ="CREATE TABLE IF NOT EXISTS " . $db_config['prefix'] . "_"
   full_name varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   telephone varchar(55) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   email varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  who_view tinyint(4) NOT NULL DEFAULT '0',
+  who_view varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   PRIMARY KEY (gid),
   UNIQUE KEY alias (alias),
   KEY locationid (locationid)
